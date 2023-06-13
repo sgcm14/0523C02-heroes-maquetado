@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Card Super Heroes</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <header>
+    <p>20% de descuento en todos los productos!</p>
+    <div class="container_logo">
+      <a href="../index.html">
+        <img src="../img/logo.svg" alt="logo">
+        <h1>Card Super Heroes</h1>
+      </a>
+    </div>
+    <nav class="menu">
+      <ul>
+        <li>
+          <a href="#">Contacto</a>
+        </li>
+        <li>
+          <a href="./registrarme.html">Registrarme</a>
+        </li>
+        <li>
+          <a href="#">Ingresar</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="content_registrarme">
+    <form class="form_registrarme">
+      <h2>Añadí tu super!</h2>
+      <p>Agregá tu personaje favorito completando las opciones</p>
+      <div class="row_form">
+        <p class="column_form">
+          <label for="nombre">*Nombre</label>
+          <input type="text" name="nombre_bd" id="nombre" class="input_form_border">
+        </p>
+        <p class="column_form">
+          <label for="especie">*Especie</label>
+          <select name="especie_bd" id="especie" class="input_form_border">
+            <option value="" disabled selected>Especie</option>
+            <option value="value1">Value 1</option>
+            <option value="value2">Value 2</option>
+            <option value="value3">Value 3</option>
+          </select>
+        </p>
+      </div>
+      <div class="row_form">
+        <p class="column_form">
+          <label for="fecha">Fecha</label>
+          <input type="date" name="fecha_bd" id="fecha" class="input_form_border">
+        </p>
+        <p class="column_form">
+          <label for="foto">Agregar Foto</label>
+          <input type="file" name="foto_bd" id="foto">
+        </p>
+      </div>
+      <div class="row_form">
+        <textarea name="description" id="description" cols="30" rows="10" class="column_form"
+          placeholder="Descripción..."></textarea>
+        <div class="column_form">
+          <span>Poderes</span>
+          <label for="poder1">
+            <input type="checkbox" id="poder1" name="poderes" value="poder1">
+            Volar
+          </label>
+          <label for="poder2">
+            <input type="checkbox" id="poder2" name="poderes" value="poder2">
+            Superinteligencia
+          </label>
+          <label for="poder3">
+            <input type="checkbox" id="poder3" name="poderes" value="poder3">
+            Vista de rayo láser
+          </label>
+          <label for="poder4">
+            <input type="checkbox" id="poder4" name="poderes" value="poder4">
+            Billetera gorda
+          </label>
+
+          <hr>
+
+          <span>Tipo de personaje</span>
+          <label for="personaje1">
+            <input type="radio" id="personaje1" name="personajes" value="personaje1">
+            Héroe / Heroina
+          </label>
+          <label for="personaje2">
+            <input type="radio" id="personaje2" name="personajes" value="personaje2">
+            Villano / Villana
+          </label>
+        </div>
+      </div>
+      <input type="submit" value="Añadir" class="button_form_registrarme">
+    </form>
+  </main>
+  <footer>
+    <div class="container_footer">
+      <p>
+        Todos los derechos reservados a FRONT END 1
+      </p>
+
+      <img src="../img/github.png" alt="github">
+    </div>
+  </footer>
+</body>
+
+</html>
