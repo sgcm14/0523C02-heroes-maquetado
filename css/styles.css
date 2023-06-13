@@ -9,23 +9,57 @@ button {
 }
 
 header p {
-  background-color: #D1891C;
+  background-color: #1CD1B0;
   padding-left: 10px;
 }
 
-h1 {
+.container_logo{
   background-color: #00669F;
+}
+
+.container_logo img{
+  width: 60px;
+}
+
+.container_logo a{
+  display: flex;
+  align-items: center;
+}
+
+h1 {
   color: white;
-  margin-bottom: 2%;
-  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
   padding: 10px;
 }
 
-main {
+nav{
+  background-color: #001D2D;
+  margin-bottom: 2%;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+  margin-right: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.content_index {
   margin: 0px 20px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+
+.content_registrarme {
+  margin: 0px 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .content_personajes {
@@ -39,6 +73,30 @@ main {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
+}
+
+.row_form {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.column_form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.input_form_border {
+  border-radius: 8px;
+  border: 0px;
+  height: 30px;
+}
+
+#description{
+  border-radius: 10px;
 }
 
 article {
@@ -126,6 +184,32 @@ footer {
   padding: 10px;
 }
 
+.form_registrarme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: #00669F;
+  color: white;
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 49.0901px;
+  margin: 0 100px;
+  padding: 10px 50px;
+}
+
+.button_form_registrarme {
+  background-color: #1CD1B0;
+  height: 47px;
+  border-radius: 15px;
+  border: 0;
+  font-size: 20px;
+  font-weight: 700;
+  width: 50%;
+  margin: 10px 100px;
+  padding: 10px 50px;
+  cursor: pointer;
+}
+
 footer img {
   height: 37px;
 }
@@ -157,11 +241,32 @@ footer img {
     margin-bottom: auto;
   }
 
+  .row_form {
+    flex-direction: column;
+  }
+
+  .column_form {
+    width: auto;
+  }
+
   article {
     margin-bottom: 20%;
   }
 
   .add {
     top: 620px;
+  }
+
+  .content_registrarme {
+    height: 100vh;
+    margin-bottom: 300px;
+  }
+
+  .form_registrarme{
+    height: 120vh;
+  }
+
+  .button_form_registrarme {
+    width: auto;
   }
 }
