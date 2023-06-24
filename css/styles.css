@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'sans-serif';
 }
 
 button {
@@ -27,7 +27,7 @@ header p {
 }
 
 h1 {
-  color: white;
+  color: #FFFFFF;
   padding: 10px;
 }
 
@@ -46,7 +46,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: white;
+  color: #FFFFFF;
 }
 
 .content_index {
@@ -54,6 +54,11 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+
+.content_index button:hover {
+  background-color: #001D2D;
+  color: #FFFFFF;
 }
 
 .content_registrarme {
@@ -86,6 +91,7 @@ a {
 .column_form {
   display: flex;
   flex-direction: column;
+  gap: 10px;
   width: 50%;
 }
 
@@ -113,10 +119,39 @@ article {
   border-radius: 20px 20px 0px 0px;
 }
 
-.heart {
+/*.heart {
   position: absolute;
   top: 20px;
   left: 20px;
+}*/
+.card-heart {
+  background-image: url("../img/heart.png");
+  height: 100px;
+  width: 100px;
+  color: #cc2424;
+  font-size: 30px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  z-index: 200;
+}
+
+.card-heart:hover {
+  /* asigno al hover la animación heart que está declarada al final */
+  animation-name: heart;
+  animation-duration: 1s;
+  animation-timing-function: steps(29);
+  cursor: pointer;
+}
+
+@keyframes heart {
+  /* Me desplazo en la imagen desde la esquina izquierda hacia la derecha */
+  0% {
+    background-position: 0px;
+  }
+  100% {
+    background-position: -2900px;
+  }
 }
 
 .photo {
@@ -142,7 +177,7 @@ article {
   background-color: #00669F;
   border-radius: 7px;
   border: none;
-  color: white;
+  color: #FFFFFF;
   margin-top: 20px;
 }
 
@@ -162,7 +197,7 @@ h3 {
   align-items: center;
   justify-content: center;
   background-color: #00669F;
-  color: white;
+  color: #FFFFFF;
   margin-bottom: 10%;
   border: none;
 }
@@ -171,7 +206,7 @@ footer {
   position: fixed;
   bottom: 0;
   background-color: #00669F;
-  color: white;
+  color: #FFFFFF;
   width: 100%;
   left: 0;
 }
@@ -188,9 +223,10 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: 'Inter', 'sans-serif'!important;
   width: 100%;
   background: #00669F;
-  color: white;
+  color: #FFFFFF;
   box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
   border-radius: 49.0901px;
   margin: 0 100px;
@@ -208,6 +244,11 @@ footer {
   margin: 10px 100px;
   padding: 10px 50px;
   cursor: pointer;
+}
+
+.button_form_registrarme:hover {
+  background-color: #001D2D;
+  color: #FFFFFF;
 }
 
 footer img {
