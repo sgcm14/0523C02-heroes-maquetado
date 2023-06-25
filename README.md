@@ -15,7 +15,7 @@ Una de las principales tareas de un desarrollador Front End es tanto estructurar
 
  Utilizando el diseño desarrollado en Figma, disponible en el siguiente enlace, la idea será revisar los diferentes elementos y estilos que corresponden a ese resultado visual y maquetarlo. Por el momento usaremos las propiedades del modelo de caja vistas en clase para poder maquetarlo. La barra azul del Header deberá quedar fija en la parte superior al hacer scroll en la página.
 
- ![](https://raw.githubusercontent.com/sgcm14/0523-C02-game-shop-maquetado/main/dise%C3%B1o/Desktop.png)
+ ![](https://raw.githubusercontent.com/sgcm14/heroes-maquetado/main/dise%C3%B1o/desktop-1.png)
 > Pantalla de **Desktop - v1**
 
 **2. Desafío:**
@@ -26,10 +26,10 @@ Utilizaremos el siguiente boceto en Figma para adaptar nuestro proyecto de súpe
 - Utilizar dos media queries con viewport para tablet y celular. 
 - Escribir las propiedades necesarias en las mismas para su adaptación. 
 
- ![](https://raw.githubusercontent.com/sgcm14/0523-C02-game-shop-maquetado/main/dise%C3%B1o/Desktop.png)
+ ![](https://raw.githubusercontent.com/sgcm14/heroes-maquetado/main/dise%C3%B1o/tablet.png)
 > Pantalla de **Tablet**
 
- ![](https://raw.githubusercontent.com/sgcm14/0523-C02-game-shop-maquetado/main/dise%C3%B1o/Desktop.png)
+ ![](https://raw.githubusercontent.com/sgcm14/heroes-maquetado/main/dise%C3%B1o/mobile.jpg)
 > Pantalla de **Mobile**
 
 
@@ -39,10 +39,10 @@ Utilizaremos el siguiente boceto en Figma para adaptar nuestro proyecto de súpe
 La tarea obligatoria para esta clase es maquetar el formulario de Contacto, las secciones Home y Detail son opcionales para que
 quede un diseño más completo y por si queremos seguir practicando.
 
- ![](https://raw.githubusercontent.com/sgcm14/0523-C02-game-shop-maquetado/main/dise%C3%B1o/Desktop.png)
+ ![](https://raw.githubusercontent.com/sgcm14/heroes-maquetado/main/dise%C3%B1o/desktop-2.png)
 > Pantalla de **Desktop - v2**
 
- ![](https://raw.githubusercontent.com/sgcm14/0523-C02-game-shop-maquetado/main/dise%C3%B1o/Desktop.png)
+ ![](https://raw.githubusercontent.com/sgcm14/heroes-maquetado/main/dise%C3%B1o/desktop-2-form.png)
 > Pantalla de **Desktop - v2**
 
 
